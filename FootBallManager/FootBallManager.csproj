@@ -40,6 +40,7 @@
   <ItemGroup>
     <PackageReference Include="ChatAIze.GenerativeCS" Version="0.3.5" />
     <PackageReference Include="Flurl.Http" Version="4.0.2" />
+    <PackageReference Include="Guna.UI2.WinForms" Version="2.0.4.6" />
     <PackageReference Include="HIC.System.Windows.Forms.DataVisualization" Version="1.0.1" />
     <PackageReference Include="Maikebing.System.Windows.Forms.DataVisualization" Version="5.0.1" />
     <PackageReference Include="Newtonsoft.Json" Version="13.0.3" />
@@ -47,6 +48,18 @@
     <PackageReference Include="RestSharp" Version="111.2.0" />
     <PackageReference Include="ScottPlot.WinForms" Version="5.0.35" />
     <PackageReference Include="WinForms.DataVisualization" Version="1.9.2" />
+    <PackageReference Include="Xceed.Products.Wpf.Toolkit.Base" Version="4.6.24151.1544" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Compile Update="MainMenu.cs">
+      <SubType>Form</SubType>
+    </Compile>
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="MuaGiai\" />
+    <Folder Include="BXH\" />
   </ItemGroup>
 
 </Project>
