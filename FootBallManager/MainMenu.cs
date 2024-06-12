@@ -41,6 +41,12 @@ namespace FootBallManager
 
         private void Form1_Load(object sender, EventArgs e)
         {
+            
+                // Thiết lập form để mở toàn màn hình
+                this.FormBorderStyle = FormBorderStyle.None;
+                this.WindowState = FormWindowState.Maximized;
+                this.Bounds = Screen.PrimaryScreen.Bounds;
+            
         }
 
         private void OpenChildForm(Form childForm)
@@ -86,7 +92,7 @@ namespace FootBallManager
         private void btnPreseason_Click(object sender, EventArgs e)
         {
             //Show Giao Diện
-            //OpenChildForm(new Form1());
+            OpenChildForm(new Form1());
         }
 
         private void btnRules_Click(object sender, EventArgs e)

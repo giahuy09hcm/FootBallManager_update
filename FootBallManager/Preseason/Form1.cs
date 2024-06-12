@@ -39,7 +39,6 @@ namespace FootBallManager
             string dateTime = DateTime.Now.ToString("yyyy-MM-dd HH:mm:ss");
             flowLayoutPanelComments.FlowDirection = FlowDirection.RightToLeft;
             flowLayoutPanelComments.AutoScroll = true;
-
             if (!string.IsNullOrEmpty(comment))
             {
                 // T?o m?t CommentControl m?i
@@ -212,67 +211,67 @@ namespace FootBallManager
                 string imagePath1 = "";
                 if (cauThuControl.Name == "ST11")
                 {
-                    imagePath1 = "D:\\Do an C#\\FootBallManager\\FootBallManager\\Kit\\9.png";
+                    imagePath1 = "D:\\UIT\\C#-CS511.O21.KHCL\\Project\\FootBallManager_update\\FootBallManager\\Kit\\9.png";
                     cauThuControl.Image = Image.FromFile(imagePath1);
                 }
                 if (cauThuControl.Name == "ST12")
                 {
-                    imagePath1 = "D:\\Do an C#\\FootBallManager\\FootBallManager\\Kit\\7.png";
+                    imagePath1 = "D:\\UIT\\C#-CS511.O21.KHCL\\Project\\FootBallManager_update\\FootBallManager\\Kit\\7.png";
                     cauThuControl.Image = Image.FromFile(imagePath1);
                 }
                 if (cauThuControl.Name == "ST13")
                 {
-                    imagePath1 = "D:\\Do an C#\\FootBallManager\\FootBallManager\\Kit\\11.png";
+                    imagePath1 = "D:\\UIT\\C#-CS511.O21.KHCL\\Project\\FootBallManager_update\\FootBallManager\\Kit\\11.png";
                     cauThuControl.Image = Image.FromFile(imagePath1);
                 }
                 if (cauThuControl.Name == "CM11")
                 {
-                    imagePath1 = "D:\\Do an C#\\FootBallManager\\FootBallManager\\Kit\\10.png";
+                    imagePath1 = "D:\\UIT\\C#-CS511.O21.KHCL\\Project\\FootBallManager_update\\FootBallManager\\Kit\\10.png";
                     cauThuControl.Image = Image.FromFile(imagePath1);
                 }
                 if (cauThuControl.Name == "CM12")
                 {
-                    imagePath1 = "D:\\Do an C#\\FootBallManager\\FootBallManager\\Kit\\6.png";
+                    imagePath1 = "D:\\UIT\\C#-CS511.O21.KHCL\\Project\\FootBallManager_update\\FootBallManager\\Kit\\6.png";
                     cauThuControl.Image = Image.FromFile(imagePath1);
                 }
                 if (cauThuControl.Name == "CM13")
                 {
-                    imagePath1 = "D:\\Do an C#\\FootBallManager\\FootBallManager\\Kit\\8.png";
+                    imagePath1 = "D:\\UIT\\C#-CS511.O21.KHCL\\Project\\FootBallManager_update\\FootBallManager\\Kit\\8.png";
                     cauThuControl.Image = Image.FromFile(imagePath1);
                 }
                 if (cauThuControl.Name == "CM14")
                 {
-                    imagePath1 = "D:\\Do an C#\\FootBallManager\\FootBallManager\\Kit\\12.png";
+                    imagePath1 = "D:\\UIT\\C#-CS511.O21.KHCL\\Project\\FootBallManager_update\\FootBallManager\\Kit\\12.png";
                     cauThuControl.Image = Image.FromFile(imagePath1);
                 }
                 if (cauThuControl.Name == "CM15")
                 {
-                    imagePath1 = "D:\\Do an C#\\FootBallManager\\FootBallManager\\Kit\\13.png";
+                    imagePath1 = "D:\\UIT\\C#-CS511.O21.KHCL\\Project\\FootBallManager_update\\FootBallManager\\Kit\\13.png";
                     cauThuControl.Image = Image.FromFile(imagePath1);
                 }
                 if (cauThuControl.Name == "CB11")
                 {
-                    imagePath1 = "D:\\Do an C#\\FootBallManager\\FootBallManager\\Kit\\2.png";
+                    imagePath1 = "D:\\UIT\\C#-CS511.O21.KHCL\\Project\\FootBallManager_update\\FootBallManager\\Kit\\2.png";
                     cauThuControl.Image = Image.FromFile(imagePath1);
                 }
                 if (cauThuControl.Name == "CB12")
                 {
-                    imagePath1 = "D:\\Do an C#\\FootBallManager\\FootBallManager\\Kit\\3.png";
+                    imagePath1 = "D:\\UIT\\C#-CS511.O21.KHCL\\Project\\FootBallManager_update\\FootBallManager\\Kit\\3.png";
                     cauThuControl.Image = Image.FromFile(imagePath1);
                 }
                 if (cauThuControl.Name == "CB13")
                 {
-                    imagePath1 = "D:\\Do an C#\\FootBallManager\\FootBallManager\\Kit\\4.png";
+                    imagePath1 = "D:\\UIT\\C#-CS511.O21.KHCL\\Project\\FootBallManager_update\\FootBallManager\\Kit\\4.png";
                     cauThuControl.Image = Image.FromFile(imagePath1);
                 }
                 if (cauThuControl.Name == "CB14")
                 {
-                    imagePath1 = "D:\\Do an C#\\FootBallManager\\FootBallManager\\Kit\\5.png";
+                    imagePath1 = "D:\\UIT\\C#-CS511.O21.KHCL\\Project\\FootBallManager_update\\FootBallManager\\Kit\\5.png";
                     cauThuControl.Image = Image.FromFile(imagePath1);
                 }
                 if (cauThuControl.Name == "GK1")
                 {
-                    imagePath1 = "D:\\Do an C#\\FootBallManager\\FootBallManager\\Kit\\1.png";
+                    imagePath1 = "D:\\UIT\\C#-CS511.O21.KHCL\\Project\\FootBallManager_update\\FootBallManager\\Kit\\1.png";
                     cauThuControl.Image = Image.FromFile(imagePath1);
                 }
                 if (PieChartForm.p1 > 50)
@@ -308,67 +307,67 @@ namespace FootBallManager
                 string imagePath2 = "";
                 if (cauThuControl.Name == "ST21")
                 {
-                    imagePath2 = "D:\\Do an C#\\FootBallManager\\FootBallManager\\Kit\\9.png";
+                    imagePath2 = "D:\\UIT\\C#-CS511.O21.KHCL\\Project\\FootBallManager_update\\FootBallManager\\Kit\\9.png";
                     cauThuControl.Image = Image.FromFile(imagePath2);
                 }
                 if (cauThuControl.Name == "ST22")
                 {
-                    imagePath2 = "D:\\Do an C#\\FootBallManager\\FootBallManager\\Kit\\7.png";
+                    imagePath2 = "D:\\UIT\\C#-CS511.O21.KHCL\\Project\\FootBallManager_update\\FootBallManager\\Kit\\7.png";
                     cauThuControl.Image = Image.FromFile(imagePath2);
                 }
                 if (cauThuControl.Name == "ST23")
                 {
-                    imagePath2 = "D:\\Do an C#\\FootBallManager\\FootBallManager\\Kit\\11.png";
+                    imagePath2 = "D:\\UIT\\C#-CS511.O21.KHCL\\Project\\FootBallManager_update\\FootBallManager\\Kit\\11.png";
                     cauThuControl.Image = Image.FromFile(imagePath2);
                 }
                 if (cauThuControl.Name == "CM21")
                 {
-                    imagePath2 = "D:\\Do an C#\\FootBallManager\\FootBallManager\\Kit\\10.png";
+                    imagePath2 = "D:\\UIT\\C#-CS511.O21.KHCL\\Project\\FootBallManager_update\\FootBallManager\\Kit\\10.png";
                     cauThuControl.Image = Image.FromFile(imagePath2);
                 }
                 if (cauThuControl.Name == "CM22")
                 {
-                    imagePath2 = "D:\\Do an C#\\FootBallManager\\FootBallManager\\Kit\\6.png";
+                    imagePath2 = "D:\\UIT\\C#-CS511.O21.KHCL\\Project\\FootBallManager_update\\FootBallManager\\Kit\\6.png";
                     cauThuControl.Image = Image.FromFile(imagePath2);
                 }
                 if (cauThuControl.Name == "CM23")
                 {
-                    imagePath2 = "D:\\Do an C#\\FootBallManager\\FootBallManager\\Kit\\8.png";
+                    imagePath2 = "D:\\UIT\\C#-CS511.O21.KHCL\\Project\\FootBallManager_update\\FootBallManager\\Kit\\8.png";
                     cauThuControl.Image = Image.FromFile(imagePath2);
                 }
                 if (cauThuControl.Name == "CM24")
                 {
-                    imagePath2 = "D:\\Do an C#\\FootBallManager\\FootBallManager\\Kit\\12.png";
+                    imagePath2 = "D:\\UIT\\C#-CS511.O21.KHCL\\Project\\FootBallManager_update\\FootBallManager\\Kit\\12.png";
                     cauThuControl.Image = Image.FromFile(imagePath2);
                 }
                 if (cauThuControl.Name == "CM25")
                 {
-                    imagePath2 = "D:\\Do an C#\\FootBallManager\\FootBallManager\\Kit\\13.png";
+                    imagePath2 = "D:\\UIT\\C#-CS511.O21.KHCL\\Project\\FootBallManager_update\\FootBallManager\\Kit\\13.png";
                     cauThuControl.Image = Image.FromFile(imagePath2);
                 }
                 if (cauThuControl.Name == "CB21")
                 {
-                    imagePath2 = "D:\\Do an C#\\FootBallManager\\FootBallManager\\Kit\\2.png";
+                    imagePath2 = "D:\\UIT\\C#-CS511.O21.KHCL\\Project\\FootBallManager_update\\FootBallManager\\Kit\\2.png";
                     cauThuControl.Image = Image.FromFile(imagePath2);
                 }
                 if (cauThuControl.Name == "CB22")
                 {
-                    imagePath2 = "D:\\Do an C#\\FootBallManager\\FootBallManager\\Kit\\3.png";
+                    imagePath2 = "D:\\UIT\\C#-CS511.O21.KHCL\\Project\\FootBallManager_update\\FootBallManager\\Kit\\3.png";
                     cauThuControl.Image = Image.FromFile(imagePath2);
                 }
                 if (cauThuControl.Name == "CB23")
                 {
-                    imagePath2 = "D:\\Do an C#\\FootBallManager\\FootBallManager\\Kit\\4.png";
+                    imagePath2 = "D:\\UIT\\C#-CS511.O21.KHCL\\Project\\FootBallManager_update\\FootBallManager\\Kit\\4.png";
                     cauThuControl.Image = Image.FromFile(imagePath2);
                 }
                 if (cauThuControl.Name == "CB24")
                 {
-                    imagePath2 = "D:\\Do an C#\\FootBallManager\\FootBallManager\\Kit\\5.png";
+                    imagePath2 = "D:\\UIT\\C#-CS511.O21.KHCL\\Project\\FootBallManager_update\\FootBallManager\\Kit\\5.png";
                     cauThuControl.Image = Image.FromFile(imagePath2);
                 }
                 if (cauThuControl.Name == "GK2")
                 {
-                    imagePath2 = "D:\\Do an C#\\FootBallManager\\FootBallManager\\Kit\\1.png";
+                    imagePath2 = "D:\\UIT\\C#-CS511.O21.KHCL\\Project\\FootBallManager_update\\FootBallManager\\Kit\\1.png";
                     cauThuControl.Image = Image.FromFile(imagePath2);
                 }
                 if(PieChartForm.p2 > 50)

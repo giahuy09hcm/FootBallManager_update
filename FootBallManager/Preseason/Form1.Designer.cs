@@ -53,11 +53,16 @@
             btnSend = new Button();
             pictureBox1 = new PictureBox();
             flowLayoutPanelComments = new FlowLayoutPanel();
+            panel5 = new Panel();
+            panel6 = new Panel();
+            panel7 = new Panel();
             panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)imgTeam1).BeginInit();
             panel2.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)imgTeam2).BeginInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox1).BeginInit();
+            panel5.SuspendLayout();
+            panel7.SuspendLayout();
             SuspendLayout();
             // 
             // panel1
@@ -71,14 +76,15 @@
             panel1.Controls.Add(label1);
             panel1.Controls.Add(imgTeam1);
             panel1.Controls.Add(Team1);
-            panel1.Location = new Point(14, 3);
+            panel1.Location = new Point(7, 6);
             panel1.Margin = new Padding(3, 4, 3, 4);
             panel1.Name = "panel1";
-            panel1.Size = new Size(440, 705);
+            panel1.Size = new Size(471, 833);
             panel1.TabIndex = 0;
             // 
             // button1
             // 
+            button1.ForeColor = Color.Black;
             button1.Location = new Point(342, 65);
             button1.Margin = new Padding(3, 4, 3, 4);
             button1.Name = "button1";
@@ -90,15 +96,19 @@
             // 
             // panel3
             // 
+            panel3.Anchor = AnchorStyles.Top | AnchorStyles.Bottom;
+            panel3.BackColor = Color.FromArgb(10, 18, 45);
             panel3.Location = new Point(7, 105);
             panel3.Name = "panel3";
-            panel3.Size = new Size(430, 555);
+            panel3.Size = new Size(430, 694);
             panel3.TabIndex = 6;
             // 
             // label5
             // 
+            label5.Anchor = AnchorStyles.Bottom | AnchorStyles.Left;
             label5.AutoSize = true;
-            label5.Location = new Point(7, 673);
+            label5.ForeColor = Color.Black;
+            label5.Location = new Point(7, 802);
             label5.Name = "label5";
             label5.Size = new Size(119, 20);
             label5.TabIndex = 5;
@@ -117,6 +127,7 @@
             // label3
             // 
             label3.AutoSize = true;
+            label3.ForeColor = Color.Black;
             label3.Location = new Point(29, 65);
             label3.Name = "label3";
             label3.Size = new Size(84, 20);
@@ -126,6 +137,8 @@
             // label1
             // 
             label1.AutoSize = true;
+            label1.BackColor = Color.Transparent;
+            label1.ForeColor = Color.Black;
             label1.Location = new Point(29, 8);
             label1.Name = "label1";
             label1.Size = new Size(81, 20);
@@ -154,7 +167,7 @@
             // 
             // panel2
             // 
-            panel2.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left | AnchorStyles.Right;
+            panel2.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Right;
             panel2.Controls.Add(button2);
             panel2.Controls.Add(panel4);
             panel2.Controls.Add(map2);
@@ -163,14 +176,15 @@
             panel2.Controls.Add(label2);
             panel2.Controls.Add(imgTeam2);
             panel2.Controls.Add(Team2);
-            panel2.Location = new Point(553, 3);
+            panel2.Location = new Point(571, 6);
             panel2.Margin = new Padding(3, 4, 3, 4);
             panel2.Name = "panel2";
-            panel2.Size = new Size(440, 705);
+            panel2.Size = new Size(511, 833);
             panel2.TabIndex = 1;
             // 
             // button2
             // 
+            button2.ForeColor = Color.Black;
             button2.Location = new Point(48, 65);
             button2.Margin = new Padding(3, 4, 3, 4);
             button2.Name = "button2";
@@ -183,9 +197,10 @@
             // panel4
             // 
             panel4.Anchor = AnchorStyles.Top | AnchorStyles.Bottom;
-            panel4.Location = new Point(8, 105);
+            panel4.BackColor = Color.FromArgb(10, 18, 45);
+            panel4.Location = new Point(43, 105);
             panel4.Name = "panel4";
-            panel4.Size = new Size(430, 555);
+            panel4.Size = new Size(430, 694);
             panel4.TabIndex = 7;
             // 
             // map2
@@ -200,8 +215,10 @@
             // 
             // label6
             // 
+            label6.Anchor = AnchorStyles.Bottom | AnchorStyles.Left;
             label6.AutoSize = true;
-            label6.Location = new Point(8, 673);
+            label6.ForeColor = Color.Black;
+            label6.Location = new Point(14, 802);
             label6.Name = "label6";
             label6.Size = new Size(132, 20);
             label6.TabIndex = 6;
@@ -210,6 +227,7 @@
             // label4
             // 
             label4.AutoSize = true;
+            label4.ForeColor = Color.Black;
             label4.Location = new Point(330, 69);
             label4.Name = "label4";
             label4.Size = new Size(84, 20);
@@ -219,6 +237,7 @@
             // label2
             // 
             label2.AutoSize = true;
+            label2.ForeColor = Color.Black;
             label2.Location = new Point(330, 15);
             label2.Name = "label2";
             label2.Size = new Size(81, 20);
@@ -247,11 +266,12 @@
             // 
             // Start
             // 
-            Start.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left | AnchorStyles.Right;
-            Start.Location = new Point(461, 259);
+            Start.Anchor = AnchorStyles.Left | AnchorStyles.Right;
+            Start.ForeColor = Color.Black;
+            Start.Location = new Point(484, 320);
             Start.Margin = new Padding(3, 4, 3, 4);
             Start.Name = "Start";
-            Start.Size = new Size(86, 31);
+            Start.Size = new Size(81, 31);
             Start.TabIndex = 2;
             Start.Text = "Đấu";
             Start.UseVisualStyleBackColor = true;
@@ -259,11 +279,12 @@
             // 
             // btnPredict
             // 
-            btnPredict.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left | AnchorStyles.Right;
-            btnPredict.Location = new Point(461, 297);
+            btnPredict.Anchor = AnchorStyles.Left | AnchorStyles.Right;
+            btnPredict.ForeColor = Color.Black;
+            btnPredict.Location = new Point(484, 390);
             btnPredict.Margin = new Padding(3, 4, 3, 4);
             btnPredict.Name = "btnPredict";
-            btnPredict.Size = new Size(86, 31);
+            btnPredict.Size = new Size(81, 35);
             btnPredict.TabIndex = 3;
             btnPredict.Text = "Dự đoán";
             btnPredict.UseVisualStyleBackColor = true;
@@ -272,59 +293,90 @@
             // txtInput
             // 
             txtInput.Anchor = AnchorStyles.Bottom | AnchorStyles.Right;
-            txtInput.Location = new Point(1011, 672);
+            txtInput.BackColor = SystemColors.InactiveCaption;
+            txtInput.Location = new Point(15, 604);
             txtInput.Margin = new Padding(3, 4, 3, 4);
             txtInput.Name = "txtInput";
-            txtInput.Size = new Size(220, 27);
+            txtInput.Size = new Size(104, 27);
             txtInput.TabIndex = 4;
             // 
             // btnSend
             // 
             btnSend.Anchor = AnchorStyles.Bottom | AnchorStyles.Right;
+            btnSend.BackColor = Color.LightGray;
             btnSend.BackgroundImage = (Image)resources.GetObject("btnSend.BackgroundImage");
             btnSend.BackgroundImageLayout = ImageLayout.Stretch;
-            btnSend.Location = new Point(1239, 664);
+            btnSend.ForeColor = Color.Black;
+            btnSend.Location = new Point(116, 599);
             btnSend.Margin = new Padding(3, 4, 3, 4);
             btnSend.Name = "btnSend";
-            btnSend.Size = new Size(50, 44);
+            btnSend.Size = new Size(37, 37);
             btnSend.TabIndex = 6;
-            btnSend.UseVisualStyleBackColor = true;
+            btnSend.UseVisualStyleBackColor = false;
             btnSend.Click += btnSend_Click;
             // 
             // pictureBox1
             // 
-            pictureBox1.Anchor = AnchorStyles.Top | AnchorStyles.Right;
+            pictureBox1.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left | AnchorStyles.Right;
             pictureBox1.BackgroundImage = (Image)resources.GetObject("pictureBox1.BackgroundImage");
             pictureBox1.BackgroundImageLayout = ImageLayout.Stretch;
-            pictureBox1.Location = new Point(1011, 17);
+            pictureBox1.Location = new Point(15, 71);
             pictureBox1.Margin = new Padding(3, 4, 3, 4);
             pictureBox1.Name = "pictureBox1";
-            pictureBox1.Size = new Size(278, 272);
+            pictureBox1.Size = new Size(138, 125);
             pictureBox1.TabIndex = 7;
             pictureBox1.TabStop = false;
             // 
             // flowLayoutPanelComments
             // 
             flowLayoutPanelComments.Anchor = AnchorStyles.Bottom | AnchorStyles.Right;
-            flowLayoutPanelComments.Location = new Point(1011, 297);
+            flowLayoutPanelComments.BackColor = SystemColors.ControlLight;
+            flowLayoutPanelComments.Location = new Point(15, 294);
             flowLayoutPanelComments.Margin = new Padding(3, 4, 3, 4);
             flowLayoutPanelComments.Name = "flowLayoutPanelComments";
-            flowLayoutPanelComments.Size = new Size(278, 365);
+            flowLayoutPanelComments.Size = new Size(138, 282);
             flowLayoutPanelComments.TabIndex = 8;
+            // 
+            // panel5
+            // 
+            panel5.Controls.Add(btnPredict);
+            panel5.Controls.Add(Start);
+            panel5.Controls.Add(panel1);
+            panel5.Controls.Add(panel2);
+            panel5.Dock = DockStyle.Left;
+            panel5.Location = new Point(0, 0);
+            panel5.Name = "panel5";
+            panel5.Size = new Size(1085, 843);
+            panel5.TabIndex = 9;
+            // 
+            // panel6
+            // 
+            panel6.Dock = DockStyle.Left;
+            panel6.Location = new Point(1085, 0);
+            panel6.Name = "panel6";
+            panel6.Size = new Size(169, 843);
+            panel6.TabIndex = 10;
+            // 
+            // panel7
+            // 
+            panel7.Controls.Add(flowLayoutPanelComments);
+            panel7.Controls.Add(btnSend);
+            panel7.Controls.Add(pictureBox1);
+            panel7.Controls.Add(txtInput);
+            panel7.Dock = DockStyle.Right;
+            panel7.Location = new Point(1260, 0);
+            panel7.Name = "panel7";
+            panel7.Size = new Size(153, 843);
+            panel7.TabIndex = 11;
             // 
             // Form1
             // 
             AutoScaleDimensions = new SizeF(8F, 20F);
             AutoScaleMode = AutoScaleMode.Font;
-            ClientSize = new Size(1303, 715);
-            Controls.Add(flowLayoutPanelComments);
-            Controls.Add(pictureBox1);
-            Controls.Add(btnSend);
-            Controls.Add(txtInput);
-            Controls.Add(btnPredict);
-            Controls.Add(Start);
-            Controls.Add(panel2);
-            Controls.Add(panel1);
+            ClientSize = new Size(1413, 843);
+            Controls.Add(panel6);
+            Controls.Add(panel5);
+            Controls.Add(panel7);
             FormBorderStyle = FormBorderStyle.None;
             Margin = new Padding(3, 4, 3, 4);
             Name = "Form1";
@@ -336,8 +388,10 @@
             panel2.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)imgTeam2).EndInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox1).EndInit();
+            panel5.ResumeLayout(false);
+            panel7.ResumeLayout(false);
+            panel7.PerformLayout();
             ResumeLayout(false);
-            PerformLayout();
         }
 
         #endregion
@@ -367,5 +421,8 @@
         private Button button1;
         private Button button2;
         private FlowLayoutPanel flowLayoutPanelComments;
+        private Panel panel5;
+        private Panel panel6;
+        private Panel panel7;
     }
 }
