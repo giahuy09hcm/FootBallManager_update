@@ -461,6 +461,7 @@
             PanelMain.Name = "PanelMain";
             PanelMain.Size = new Size(979, 666);
             PanelMain.TabIndex = 5;
+            PanelMain.Paint += PanelMain_Paint;
             // 
             // MainMenu
             // 

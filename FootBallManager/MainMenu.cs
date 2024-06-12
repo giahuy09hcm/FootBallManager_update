@@ -25,7 +25,7 @@ namespace FootBallManager
             // Initialize buttons
             InitializeButton(out btnMuaGiai, "Home", new Point(248, 97), new Size(979, 666), btnMuaGiai_Click);
             InitializeButton(out btnPreseason, "Preseason", new Point(248, 97), new Size(979, 666), btnPreseason_Click);
-           
+
         }
 
         private void InitializeButton(out Guna2GradientButton button, string text, Point location, Size size, EventHandler onClick)
@@ -70,17 +70,17 @@ namespace FootBallManager
 
         private void btnMuaGiai_Click(object sender, EventArgs e)
         {
-
+            //OpenChildForm(new MuaGiai());
         }
 
         private void btnInfoTeam_Click(object sender, EventArgs e)
         {
-          
+            //OpenChildForm(new Infoteam());
         }
 
         private void btnLich_Click(object sender, EventArgs e)
         {
-
+            //OpenChildForm(new Lich());
         }
 
         private void btnPreseason_Click(object sender, EventArgs e)
@@ -91,10 +91,15 @@ namespace FootBallManager
 
         private void btnRules_Click(object sender, EventArgs e)
         {
-
+            //OpenChildForm(new Rules());
         }
 
         private void btnBXH_Click(object sender, EventArgs e)
+        {
+            //OpenChildForm(new BXH());
+        }
+
+        private void PanelMain_Paint(object sender, PaintEventArgs e)
         {
 
         }
